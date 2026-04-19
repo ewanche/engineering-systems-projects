@@ -1,5 +1,3 @@
-# 📐 Step 1 
-
 👉 **Checking the work of system and take necessery elements throw calculation**
 
 Need to be determined:
@@ -7,62 +5,60 @@ Need to be determined:
 1. Lose a presure in the system
 2. The head of the pump
 3. Pump operation point
-4. Control valves behave as dynamic (kV)
+4. Control valve's behave as dynamic (kV)
 
 ---
 
 # 📊 Technical task 
 
-Берём твою же систему и добавляем данные:
+## 📌 Flow rate:
 
-## 📌 Расход:
-
-* ( Q = 10 , м^3/ч )
+* ( Q = 10 , м^3/h )
 
 ---
 
-## 📌 Трубопровод:
+## 📌 Pipes:
 
-* Общая длина: 50 м
-* Диаметр (предварительно): 40 мм
-* Материал: сталь
-
----
-
-## 📌 Местные сопротивления:
-
-(упрощённо, но реалистично)
-
-* 6 поворотов (90°)
-* 1 фильтр
-* 1 теплообменник
-* 1 регулирующий клапан
-* 5 шаровых кранов
+* Lenth: 50 м
+* Diametr (preliminary): 40 мм
+* Material: steel
 
 ---
 
-## 📌 Теплообменник:
+## 📌 Local resistant:
 
-* Потери давления: **30 кПа**
+(ordinary, but real)
 
----
-
-## 📌 Фильтр:
-
-* Чистый: **10 кПа**
-* Грязный: **30 кПа**
-
----
-
-## 📌 Регулирующий клапан:
-
-(пока неизвестен — ты его подберёшь)
+* 6 elbow (90°)
+* 1 filtr
+* 1 cooler
+* 1 control valve
+* 5 boll valves
 
 ---
 
-# 🧠 Твоя задача (расчёт №1)
+## 📌 Cooler:
 
-## 1. Определи скорость потока
+* Loose the presure: **30 кPа**
+
+---
+
+## 📌 Filtr:
+
+* clean: **10 кPа**
+* durty: **30 кPа**
+
+---
+
+## 📌 Control valve:
+
+(the info is in progress)
+
+---
+
+# 🧠 Goal (calculation №1)
+
+## 1. Flow's speed
 
 [
 v = \frac{Q}{A}
@@ -70,42 +66,41 @@ v = \frac{Q}{A}
 
 ---
 
-## 2. Прикинь потери давления:
+## 2. Loose of the presure:
 
-Раздели на:
+two points:
 
-* линейные (труба)
-* местные (арматура + теплообменник + фильтр)
-
----
-
-## 3. Ответь:
-
-👉 Какой напор нужен насосу?
-
-(в метрах или кПа)
+* linear (pipeline)
+* local (fittings + cooler + filter)
 
 ---
 
-## 4. Ключевой вопрос:
+## 3.Question:
 
-👉 Что произойдёт, если фильтр загрязнится?
+👉 Which head need the pump?
 
-* как изменится расход?
-* что увидят датчики?
+(Meters or kPa)
 
 ---
 
-# 💡 Подсказка (инженерная)
+## 4. Key question:
 
-Ты можешь считать укрупнённо:
+👉 What happend if the filter became durty?
 
-* скорость ~ 1–2 м/с (проверь)
-* линейные потери: ~100–300 Па/м (оценка)
-* местные — через коэффициенты или просто суммарно
+* Will be changed the flow?
+* What will see the sensors?
 
-👉 Сейчас важна **логика**, а не идеальная точность
+---
 
+# 💡 Help (engineer's)
+
+make calkulation easier:
+
+* speed ~ 1–2 м/с (need check)
+* linear loose: ~100–300 Pа/м (?)
+* local — with koefficients or summa
+
+👉 important **logik**
 ---
 
 # 🎯 Цель этого шага
@@ -116,15 +111,5 @@ v = \frac{Q}{A}
 * кто “съедает” напор
 * где узкое место системы
 
----
-
-# 🚀 Дальше (после твоего ответа)
-
-Мы:
-
-* проверим расчёт
-* подберём насос
-* подберём **Kv клапана**
-* разберём **нестабильность системы**
 
 
