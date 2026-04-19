@@ -1,4 +1,4 @@
-![scheme_v1](/assets/scheme_v1.jpg)
+![scheme_v1](assets/scheme_v1.jpg)
 
 ## 📌 Description
 
