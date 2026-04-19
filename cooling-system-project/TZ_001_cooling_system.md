@@ -100,16 +100,16 @@ make calkulation easier:
 * linear loose: ~100–300 Pа/м (?)
 * local — with koefficients or summa
 
-👉 important **logik**
+👉 **logik** is important 
 ---
 
-# 🎯 Цель этого шага
+# 🎯 Goal
 
-Не просто “посчитать”, а понять:
+we need understand:
 
-* где теряется давление
-* кто “съедает” напор
-* где узкое место системы
+* where is the presure loose
+* who “eat” the head
+* where is the bottleneck in the system
 
 
 
