@@ -22,8 +22,7 @@ Design of a closed-loop cooling system for industrial equipment.
 
 * Ensure stable cooling
 * Allow maintenance without shutdown
-* Provide monitoring and аварийную защиту
-
+* Provide monitoring and emergency protection
 ## 📂 Project structure
 
 cooling-system-project/
