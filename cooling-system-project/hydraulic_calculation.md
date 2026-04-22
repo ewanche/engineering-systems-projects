@@ -10,7 +10,7 @@ D = 40 mm
 
 ## 3. Velocity calculation
 
-(формула + результат)
+v=Q/A + результат)
 
 ## 4. Pressure losses
 
